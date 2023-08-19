@@ -16,6 +16,7 @@ class NewTaskFunctionalitySpecService{
     getText(){
 
         return NewTaskFunctionality.getTextArea()
+        
     }
 
     getTexts(){

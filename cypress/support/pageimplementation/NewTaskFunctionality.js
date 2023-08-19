@@ -12,12 +12,12 @@ class NewTaskFunnctionality{
 
     getTextArea(){
 
-        return NewTaskFunctionalityPage.getTextArea().clear().type('test')
+        return NewTaskFunctionalityPage.getTextArea().click().clear().type('test 2',{force: true}).should('have.value','test 2')
     }
 
     getText(){
 
-        return NewTaskFunctionalityPage.getText().clear().type("test performance")
+        return NewTaskFunctionalityPage.getText().clear().type("test performance",{force: true})
     }
 
     getImage(){
