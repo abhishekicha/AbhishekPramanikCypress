@@ -4,8 +4,6 @@ import NewTaskFunctionalitySpecService from "../services/NewTaskFunctionalitySpe
 
 describe('New Task Add fuctionality', function () {
 
-
-
     it('Open The Clickup Website',BaseSpecService.init)
     it('Login as User',BaseSpecService.LoginAsUser)
     it('Add New Task', NewTaskFunctionalitySpecService.getTasks)

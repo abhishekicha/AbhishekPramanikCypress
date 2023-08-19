@@ -2,7 +2,7 @@ import LoginPageImplementation from '../../support/pageimplementation/LoginPageI
 
 class BaseSpecService{
 
-
+//calling the functions from imported file
     init()
 {
     LoginPageImplementation.getUrl()

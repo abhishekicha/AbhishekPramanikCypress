@@ -2,6 +2,7 @@ import LoginPage from "../pageobjects/LoginPage";
 
 class LoginPageImplementation{
 
+    //Handling The Exception
     getException(){
 
         return    Cypress.on('uncaught:exception', (err, runnable) => {
@@ -11,6 +12,8 @@ class LoginPageImplementation{
             })
                
         }
+
+    //Calling The Locators From Imported Files     
 
     clickOnSignin() {
         return LoginPage.getClickOnSignin().click()

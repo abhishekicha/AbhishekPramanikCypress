@@ -5,6 +5,8 @@ import LoginPageImplementation from '../../support/pageimplementation/LoginPageI
 class NewTaskFunctionalitySpecService{
 
 
+    //calling the functions from imported file
+
     getTasks(){
 
     return   NewTaskFunctionality.getTask()
