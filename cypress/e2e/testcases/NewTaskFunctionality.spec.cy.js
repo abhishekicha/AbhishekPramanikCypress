@@ -10,7 +10,7 @@ describe('New Task Add fuctionality', function () {
     it('Login as User',BaseSpecService.LoginAsUser)
     it('Add New Task', NewTaskFunctionalitySpecService.getTasks)
     it('Add Task Name', NewTaskFunctionalitySpecService.getText)
-    it('Add Task', NewTaskFunctionalitySpecService.getTexts)
+    it('Add Task Details', NewTaskFunctionalitySpecService.getTexts)
     it('Image Upload', NewTaskFunctionalitySpecService.getImage)
     it('Create Task', NewTaskFunctionalitySpecService.createTask)
     it('Logout', NewTaskFunctionalitySpecService.logout)
